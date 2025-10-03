@@ -12,7 +12,7 @@ For performance testing, you will need to run this assignment on a VM instance o
   <img src="handout/switch-region.png" alt="Switch region" width="25%">
 </p>
 
-2. Before launching a VM, you will need to request resources for it. Go to [Service Quotas dashboard](https://us-west-2.console.aws.amazon.com/servicequotas/home/dashboard) and select Amazon EC2. For `npu` part, in the search bar type `Running On-Demand Trn instances`. Select it and click on `Request increase at account level`. Enter 8 vCPUs and submit the resource request. For 'gpu' part, search for `Running On-Demand DL instances` and request 8 vCPUs similarly. Keep in mind that this step might take a few days until Amazon approves your resource requests.
+2. Before launching a VM, you will need to request resources for it. Go to [Service Quotas dashboard](https://us-west-2.console.aws.amazon.com/servicequotas/home/dashboard) and select Amazon EC2. For `npu` part, in the search bar type `Running On-Demand Trn instances`. Select it and click on `Request increase at account level`. Enter 8 vCPUs and submit the resource request. For 'gpu' part, search for `Running On-Demand G and VT instances` and request 8 vCPUs similarly. Keep in mind that this step might take a few days until Amazon approves your resource requests.
 <p align="center">
   <img src="handout/request-resources.png" alt="Requesting vCPUs for On-Demand instance" width="25%">
 </p>
